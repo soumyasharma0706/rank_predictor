@@ -1,0 +1,117 @@
+.content{
+    position: relative;
+}
+
+.content2{
+    position: relative;
+    top:1350px;
+    left: 200px;
+    /* background-color: rgba(155, 9, 223, 0.705); */
+}
+
+.MiddleTextArea{
+    color: white;
+    font-size: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 900px;
+    left: 155px;
+    max-width: 90%;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+.MiddleTextArea2{
+    color: rgb(199, 198, 198);
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 1100px;
+    left: 160px;
+    max-width: 80%;
+    font-family: "Noto Sans";
+    font-weight: 100;
+    z-index: -1;
+}
+.MiddleTextArea2:hover{
+    z-index: 1;
+}
+img{
+    width: 180px;
+    height: 100px;
+    /* border:50% 50% 50% 50%; */
+    position: absolute;
+    top: 1040px; 
+    left: 40px;
+
+}
+.b{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 1400px;
+    left: 155px;
+    max-width: 90%;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+
+.MiddleTextArea3{
+    color: rgb(167, 158, 158);
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 1400px;
+    left: 155px;
+    max-width: 90%;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+
+
+.name{
+    font-size: 70px;
+    color: rgb(184, 0, 235);
+    /* color:linear-gradient(rgb(184, 0, 235) 0%,   rgb(148, 75, 168) 100%); */
+    display: inline-block;
+    width: 1000px;
+}
+.textname{
+    height: 45px;
+    font-size: 32px;
+    width: 250px;
+    text-align: center;
+}
+
+.CodeForces{
+    font-size: 70px;
+    color: rgb(184, 0, 235);
+    display: inline-block;
+    width: 1000px;
+    margin: 0px;
+
+}
+
+.textCodeForceshandle{
+    height: 45px;
+    font-size: 32px;
+    width: 380px;
+    text-align: center;
+}
+
+.SubmitButton{
+    display: block;
+    top: 20px;
+    /* color: rgb(184, 0, 235); */
+    background-color: rgb(150, 164, 171);
+    height: 45px;
+    width: 200px;
+    font-size: 32px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.SubmitButton:hover{
+    background-color: rgb(160, 195, 212);
+
+}
